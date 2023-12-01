@@ -17,6 +17,10 @@ This script requires you to have Steam installed and to be signed in to it. You 
 
 This script's reliance on the actual Steam client on your computer is a limitation, but the way I see it this means it should work even if Steam were to update their packet schema.
 
+### Network Interface
+
+The config file `SteamFinder.ini` is set up to use the default `Ethernet` interface from Microsoft Windows, if you don't use Ethernet or use another OS, you'll want to change this before running the script. You can see a list of your PC's interface names when you first start up Wireshark, it will display valid interfaces to start packet sniffing on. Do not put quotes in the config file.
+
 ## Hardening Your Own Client
 
 You can hide your Steam client from being detected by this script by disabling Streaming and other LAN functions in your settings - consequently this also means the script cannot use your client to sniff others.
