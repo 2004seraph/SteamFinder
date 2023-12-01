@@ -16,7 +16,7 @@ Once all the required tools are added to your `PATH`, run either of the `INSTALL
 This script requires your Steam client to be signed in. To start:
 - You must kill the Steam program (*Exit Steam*)
 - run this script: CMD -> `python3 main.py`, keep the console open - this is where the results appear
-- re-run Steam after starting the script and then wait
+- re-run Steam after starting the script and then wait (booting Steam sends a massive burst of discovery packets, we want to watch them)
 
 You will then gradually start discovering other clients on your network, the script can be left running along with the Steam client and it will continue to add newly discovered clients to the list.
 
