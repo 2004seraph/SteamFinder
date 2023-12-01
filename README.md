@@ -2,6 +2,12 @@
  
 A compact little python script which watches the Steam client's auto LAN discovery packets (for Steam's In-Home Streaming) and logs other Steam clients on the local network.
 
+## Requirements
+
+- Python 3
+- Pip
+- tshark
+
 ## How To Use
 
 This script requires you to have Steam installed and to be signed in to it. You must kill the Steam program, run this script, re-run Steam and then wait. You will gradually start discovering other clients on your network.
