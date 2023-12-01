@@ -13,7 +13,12 @@ A compact little python script which watches the Steam client's auto LAN discove
 
 Once all the required tools are added to your `PATH`, run either of the `INSTALL` scripts depending on which OS you use to set up the required python packages. This script has been verified to work on Microsoft Windows and Linux, but not MacOS.
 
-This script requires you to have Steam installed and to be signed in to it. You must kill the Steam program, run this script, re-run Steam and then wait. You will gradually start discovering other clients on your network.
+This script requires your Steam client to be signed in. To start:
+- You must kill the Steam program (*Exit Steam*)
+- run this script: CMD -> `python3 main.py`, keep the console open - this is where the results appear
+- re-run Steam after starting the script and then wait
+
+You will then gradually start discovering other clients on your network, the script can be left running along with the Steam client and it will continue to add newly discovered clients to the list.
 
 This script's reliance on the actual Steam client on your computer is a limitation, but the way I see it this means it should work even if Steam were to update their packet schema.
 
