@@ -7,6 +7,7 @@ A compact little python script which watches the Steam client's auto LAN discove
 - Python 3
 - Pip
 - Wireshark + tshark
+- A Steam client
 
 ## How To Use
 
