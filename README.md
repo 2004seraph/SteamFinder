@@ -34,4 +34,6 @@ You can hide your Steam client from being detected by this script by disabling S
 
 ## Important Information
 
-Use responsibly and legally in your country. A general rule of thumb is if it's not your network, it's not your right to sniff. 
+Use responsibly and legally in your country. A general rule of thumb is if it's not your network, it's not your right to sniff.
+
+This software has no warranty, and I am in no way responsible for what you may do with tool.
