@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 
-#This script requires wireshark (libpcap) and steam to be installed.
-#In order to get any useful output, you must run this script, wait, then run
-#and rerun Steam as many times as you want to sweep your network for clients.
-
-#Made By seraph (https://github.com/Sammot)
+#SteamFinder Script - seraph
+#Docs: https://github.com/2004seraph/SteamFinder/
 
 import configparser
 import pyshark
