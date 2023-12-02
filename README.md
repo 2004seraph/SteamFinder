@@ -1,6 +1,6 @@
 # SteamFinder
  
-A compact little python script which watches the Steam client's auto LAN discovery packets (for Steam's In-Home Streaming) and logs other Steam clients on the local network.
+A little python console script which watches the Steam client's auto LAN discovery packets (for Steam's In-Home Streaming) and logs other Steam clients on the local network.
 
 ## Requirements
 
