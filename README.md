@@ -1,13 +1,14 @@
 # SteamFinder
  
-A little python console script which watches the Steam client's auto LAN discovery packets (for Steam's In-Home Streaming) and logs other Steam clients on the local network.
+A little python console script that watches the Steam client's auto LAN discovery packets (for Steam's In-Home Streaming feature) and logs information on the other Steam clients on the local network.
 
 ## Requirements
 
 - Python 3
     - pip
 - Wireshark + tshark
-- A Steam client
+- A Steam client (and account)
+- An internet connection for requests to Steam's API: allows for Steam name retrieval
 
 ## How To Use
 
@@ -15,7 +16,7 @@ Once all the required tools are added to your `PATH`, run either of the `INSTALL
 
 This script requires your Steam client to be signed in. To start:
 - You must kill the Steam program (*Exit Steam*)
-- run this script: CMD -> `python3 main.py`, keep the console open - this is where the results appear
+- run this script from your terminal: `python3 main.py`, keep the console open - this is where the results appear
 - re-run Steam after starting the script and then wait (booting Steam sends a massive burst of discovery packets, we want to watch them)
 
 You will then gradually start discovering other clients on your network, the script can be left running along with the Steam client and it will continue to add newly discovered clients to the list.
