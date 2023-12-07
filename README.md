@@ -2,6 +2,8 @@
  
 A little python console script that watches the Steam client's auto LAN discovery packets (for Steam's In-Home Streaming feature) and logs information on the other Steam clients on the local network.
 
+It can detect clients appearing offline and also steam running in offline mode, because you're still able to stream.
+
 ## Requirements
 
 - Python 3
