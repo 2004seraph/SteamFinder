@@ -12,7 +12,7 @@ It can detect clients appearing offline and also steam running in offline mode, 
     - pip
 - Wireshark + tshark
 - A Steam client (and account)
-- An internet connection for requests to Steam's API: allows for Steam name retrieval
+- [OPTIONAL] An internet connection for requests to Steam's API: allows for Steam name retrieval
 
 ## How To Use
 
